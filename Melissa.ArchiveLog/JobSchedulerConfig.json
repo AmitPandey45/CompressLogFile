@@ -1,0 +1,34 @@
+{
+  "SchedulerConfig": [
+    {
+      "Key": "MelissaWebApp",
+      "ApplicationName": "Melissa.App",
+      "IsCompressEnabled": true,
+      "SourceDirectory": "D:\\home\\site\\wwwroot\\ProjectFiles\\Logs\\archives\\",
+      "DestinationDirectory": "D:\\home\\site\\wwwroot\\ProjectFiles\\Logs\\CompressedArchive",
+      "ArchiveSize": 0.01,
+      "IsDeleteEnabledForCompressFile": true,
+      "DeletesFileOlderThanMonth": 1
+    },
+    {
+      "Key": "MelissaETLRunner",
+      "ApplicationName": "Melissa.Runner",
+      "IsCompressEnabled": true,
+      "SourceDirectory": "D:\\home\\site\\wwwroot\\ProjectFiles\\ETLLogs\\logs\\archives\\",
+      "DestinationDirectory": "D:\\home\\site\\wwwroot\\ProjectFiles\\ETLLogs\\logs\\CompressedArchive",
+      "ArchiveSize": 0.01,
+      "IsDeleteEnabledForCompressFile": true,
+      "DeletesFileOlderThanMonth": 1
+    },
+    {
+      "Key": "MelissaSchedularProcessRunner",
+      "ApplicationName": "Melissa.SchedularProcess.Runner",
+      "IsCompressEnabled": true,
+      "SourceDirectory": "D:\\home\\site\\wwwroot\\ProjectFiles\\Schedularlogs\\logs\\archives\\",
+      "DestinationDirectory": "D:\\home\\site\\wwwroot\\ProjectFiles\\Schedularlogs\\logs\\CompressedArchive",
+      "ArchiveSize": 2048,
+      "IsDeleteEnabledForCompressFile": true,
+      "DeletesFileOlderThanMonth": 1
+    }
+  ]
+}
